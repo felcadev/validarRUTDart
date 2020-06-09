@@ -6,4 +6,6 @@ Forma fácil de validar RUT en Dart / Flutter
 _Crear la clase del helper en tu programa
 
 2
-_Crear la instancia de esa clase y llamar el método verificarRuth("12192292-2")
+_Crear la instancia de esa clase y llamar el método check("12192292-2")
+
+Retorna un booleano.
