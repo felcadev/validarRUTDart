@@ -1,4 +1,10 @@
+// Este codigo fue mostrado en el hacktoberfest Concepcion 2019
+      // #Hacktoberfest2019
+      // Aguante el CITT <3
+      //soy un comentario!
+
 class RutHelper {
+  
   static String charAt(String subject, int position) {
     if (subject is! String ||
         subject.length <= position ||
@@ -29,9 +35,8 @@ class RutHelper {
     var dv = valor.substring(valor.length - 1).toUpperCase();
 
     if (isNumeric(cuerpo)) {
-      // Este codigo fue mostrado en el hacktoberfest Concepcion 2019
-      // #Hacktoberfest2019
-      // Aguante el CITT <3
+      
+
       // Aislar Cuerpo y Dígito Verificador
 
       // Formatear RUN
