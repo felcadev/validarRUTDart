@@ -1,4 +1,5 @@
 class RutHelper {
+  //validador de RUN CHILENOS en DART por FELIPE CACERES
   static String charAt(String subject, int position) {
     if (subject is! String ||
         subject.length <= position ||
@@ -32,6 +33,9 @@ class RutHelper {
       // Este codigo fue mostrado en el hacktoberfest Concepcion 2019
       // #Hacktoberfest2019
       // Aguante el CITT <3
+
+
+
       // Aislar Cuerpo y Dígito Verificador
 
       // Formatear RUN
@@ -68,7 +72,7 @@ class RutHelper {
       // Casos Especiales (0 y K)
       dv = (dv == 'K') ? '10' : dv;
       dv= (dv == 0) ? '11' : dv;
-      // Validar que el Cuerpo coincide con su Dígito Verificador
+      // Validar que el Cuerpo del rut coincide con su Dígito Verificador
       if (dvEsperado.toString() != dv.toString()) {
         return false;
       }
